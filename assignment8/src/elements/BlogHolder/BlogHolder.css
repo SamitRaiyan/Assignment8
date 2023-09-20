@@ -1,0 +1,14 @@
+.blogHolder{
+    margin: 20px 100px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 3fr 2fr;
+}
+@media only screen and (max-width: 576px) {
+    .blogHolder{
+        margin: 10px 0px;
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+}

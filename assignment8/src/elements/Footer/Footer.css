@@ -1,0 +1,12 @@
+.faq{
+    padding: 20px 0px;
+    margin-top: 20px;
+    background-color: black;
+}
+.question{
+    margin: 10px 20px ;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+    color: #111111;
+}

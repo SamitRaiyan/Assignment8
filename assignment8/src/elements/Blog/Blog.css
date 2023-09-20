@@ -1,0 +1,111 @@
+.author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.author-image{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.author-image> img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.blog>img{
+    border-radius: 15px;
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.bookmark{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+.blog{
+    box-shadow: 0 3px 10px rgba(148, 109, 226, 0.771);
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+.content{
+    max-width: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.content>button{
+    margin-bottom: 20px;
+}
+.content>h1{
+    font-size: 40px;
+    color: #111111;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .author{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .author-image{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .author-image> img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-bottom:5px;
+    }
+    .blog>img{
+        border-radius: 15px;
+        width: 350px;
+        
+        margin-top: 20px;
+    }
+    .bookmark{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-right: 5px;
+    }
+    .bookmark>button{
+        padding: 5px;
+    }
+    .name>h1{
+        padding: 0px;
+    }
+    .name>p{
+        padding: 0px;
+    }
+
+    .blog{
+        box-shadow: 0 3px 10px rgba(148, 109, 226, 0.771);
+        margin: 10px 0px;
+        border-radius: 15px;
+    }
+    .content{
+        max-width: 350px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .content>button{
+        margin-bottom: 20px;
+    }
+    .content>h1{
+        font-size: 25px;
+        color: #111111;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 500;
+    }
+    }
